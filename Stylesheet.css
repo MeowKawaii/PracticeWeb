@@ -1,0 +1,24 @@
+body{
+    background-color: #b5b8ff;
+}
+#BG{
+    position: fixed;
+    
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+
+#Icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+    width: 20%;
+
+}
