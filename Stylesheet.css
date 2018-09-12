@@ -11,17 +11,24 @@ body{
     z-index: -1;
     opacity: 0.3;
 }
+#divIcon{
+    margin: 100px 0px 20px 0px;
+}
 
 #Icon{
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;    
-    width: 20%;
+    width: 25%;
+}
+
+#divButton{
+    text-align: center;
 }
 
 .button{
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -58,22 +65,8 @@ body{
     right: 0;
 }
 
-
-#login:link, #login:visited{
-    background-color: #7456e0;
-}
-#login:active{
-
+#login,#register{
+    background-color: white;
 }
 
-#register:link,#login:visited{
 
-}
-#register:active{
-
-}
-
-div{
-    border-style: dotted;
-    align: center;
-}
