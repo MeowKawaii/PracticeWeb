@@ -16,32 +16,64 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 100px;
-    position: relative;
-    
+    position: relative;    
     width: 20%;
 }
 
-a{
-    color: white;
-    padding: 14px 25px;
+.button{
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font: 16px;
+    border-radius: 8px;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
 }
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 10px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
 
 #login:link, #login:visited{
-
-
-}
-
-#login:hover{
-
+    background-color: #7456e0;
 }
 #login:active{
 
 }
 
-#regis{
+#register:link,#login:visited{
 
+}
+#register:active{
+
+}
+
+div{
+    border-style: dotted;
+    align: center;
 }

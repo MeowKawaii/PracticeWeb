@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>MyWebPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="Stylesheet.css" />
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </head>
 <body>
+      
+    <div id="divIcon">
+        <img src="Icon.png" atl="Totoro Icon" id="Icon">
+    </div> 
+    <div id="divButton">
+        <button class="button" id="login" onclick="loginPage()"><span>login</span></button>
+        <button class="button" id="register" onclick="registerPagr()"><span>register</span></button>
+    </div>
+
     <img src="Totoro.png" atl="Totoro BG" id="BG">
-    <img src="Icon.png" atl="Totoro Icon" id="Icon"> 
-    <a href="register.html" id="regis">Register</a>
-    <a href="login.html" id="login">Login</a>
 </body>
 </html>
